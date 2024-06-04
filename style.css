@@ -1,0 +1,95 @@
+body {
+    background-image: url('image1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form1 {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.form1 input {
+    height: 1.8rem;
+    border-radius: 10%;
+    padding: 5px 5px 5px 5px;
+    font-size: medium;
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+}
+
+.head h1 {
+    color: rgb(189, 8, 8);
+    text-align: center;
+    font-size: 40px;
+}
+
+.mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    height: 400px;
+    width: 400px;
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 5%;
+    border: 10px solid grey;
+    box-shadow: 10px;
+}
+
+.image {
+    height: 50%;
+    background-color: rgb(75, 74, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    height: 40%;
+    width: 40%;
+    object-fit: contain;
+    position: absolute;
+    display: none;
+    z-index: 3;
+}
+
+.form1 button {
+    height: 50px;
+    background-color: rgb(4, 4, 70);
+    color: white;
+    border-radius: 10%;
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
+.form1 button:hover {
+    background-color: white;
+    color: rgb(4, 4, 70);
+    cursor: pointer;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(241, 160, 8);
+}
+
+.Type {
+    font-size: 25px;
+    margin-left: 1rem;
+}
+
+.ability {
+    font-size: 25px;
+    margin-left: 1rem;
+}
